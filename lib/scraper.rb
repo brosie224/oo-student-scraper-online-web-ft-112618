@@ -25,9 +25,9 @@ class Scraper
     profile_page = Nokogiri::HTML(open(profile_url))
     student = {}
 
+binding.pry
   end
 
-binding.pry
 end
 
  Scraper.scrape_index_page("./fixtures/student-site/index.html")
