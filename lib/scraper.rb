@@ -29,4 +29,4 @@ class Scraper
 
 end
 
- Scraper.scrape_profile_page("./fixtures/student-site/index.html")
+ Scraper.scrape_profile_page("./fixtures/student-site/students/david-kim.html")
